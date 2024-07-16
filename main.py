@@ -4,7 +4,7 @@ from send_email import send_email
 topic = "tesla"
 
 api_key = "890603a55bfa47048e4490069ebee18c"
-url = ("https://newsapi.org/v2/everything?" \
+url = ("https://newsapi.org/v2/everything?"
        f"q={topic}&" \
        "sortBy=publishedAt&" \
        "apiKey=890603a55bfa47048e4490069ebee18c&" \
